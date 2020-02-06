@@ -15,9 +15,7 @@ class Container extends Component {
     }
 
     clickFun=()=>{
-        
     }
-
     
     handle=()=>{
         const addManager=fire.functions().httpsCallable("addAdminRole");
