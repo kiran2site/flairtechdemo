@@ -16,7 +16,6 @@ class Container extends Component {
 
     clickFun=()=>{
         
-        
     }
 
     
