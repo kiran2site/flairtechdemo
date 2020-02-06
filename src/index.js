@@ -7,7 +7,6 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'semantic-ui-css/semantic.min.css'
-
 import axios from 'axios'
 
 axios.defaults.baseURL = "https://us-central1-flairtech-f6aa2.cloudfunctions.net/api"
