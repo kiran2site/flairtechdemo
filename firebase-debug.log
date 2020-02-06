@@ -1,0 +1,345 @@
+[debug] [2020-02-05T12:32:24.773Z] ----------------------------------------------------------------------
+[debug] [2020-02-05T12:32:24.777Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ESWAR\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2020-02-05T12:32:24.777Z] CLI Version:   7.12.1
+[debug] [2020-02-05T12:32:24.777Z] Platform:      win32
+[debug] [2020-02-05T12:32:24.777Z] Node Version:  v12.13.0
+[debug] [2020-02-05T12:32:24.816Z] Time:          Wed Feb 05 2020 18:02:24 GMT+0530 (India Standard Time)
+[debug] [2020-02-05T12:32:24.816Z] ----------------------------------------------------------------------
+[debug] [2020-02-05T12:32:24.816Z] 
+[debug] [2020-02-05T12:32:24.881Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-05T12:32:24.882Z] > authorizing via signed-in user
+[debug] [2020-02-05T12:32:24.882Z] [iam] checking project flairtech-f6aa2 for permissions ["firebase.projects.get"]
+[debug] [2020-02-05T12:32:24.885Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-05T12:32:24.885Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-05T12:32:25.188Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-05T12:32:26.098Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/flairtech-f6aa2:testIamPermissions  
+
+[debug] [2020-02-05T12:32:27.667Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-05T12:32:27.671Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/flairtech-f6aa2  
+ 
+[debug] [2020-02-05T12:32:28.265Z] <<< HTTP RESPONSE 200
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\ESWAR\firebase_Practise\New folder\functions" for Cloud Functions...
+[debug] [2020-02-05T12:33:21.665Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-02-05T12:33:21.665Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-02-05T12:33:21.665Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-02-05T12:33:21.666Z] [worker-~diagnostic~-55318721-03c7-43d1-9bb8-1b0d6b959e6a]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\12804
+[debug] [2020-02-05T12:33:21.666Z] [worker-~diagnostic~-55318721-03c7-43d1-9bb8-1b0d6b959e6a]: BUSY
+[debug] [2020-02-05T12:33:22.865Z] [runtime-status] [12804] Functions runtime initialized. {"cwd":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions","node_version":"12.13.0"}
+[debug] [2020-02-05T12:33:22.866Z] [runtime-status] [12804] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-05T12:33:22.873Z] [runtime-status] [12804] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-05T12:33:22.875Z] [runtime-status] [12804] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-05T12:33:22.877Z] [runtime-status] [12804] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[api]: http function initialized (http://localhost:5000/flairtech-f6aa2/us-central1/api).
+[debug] [2020-02-05T12:33:25.319Z] [worker-~diagnostic~-55318721-03c7-43d1-9bb8-1b0d6b959e6a]: IDLE
+[debug] [2020-02-05T12:35:00.357Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:35:00.357Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:35:00.358Z] Accepted request GET /flairtech-f6aa2/us-central1/api/userimages --> api
+[debug] [2020-02-05T12:35:00.493Z] [worker-pool] addWorker(api)
+[debug] [2020-02-05T12:35:00.493Z] [worker-pool] Adding worker with key api, total=1
+[debug] [2020-02-05T12:35:00.493Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:35:00.494Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:35:00.494Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:35:01.517Z] [runtime-status] [3704] Functions runtime initialized. {"cwd":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions","node_version":"12.13.0"}
+[debug] [2020-02-05T12:35:01.519Z] [runtime-status] [3704] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-02-05T12:35:01.524Z] [runtime-status] [3704] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-02-05T12:35:01.526Z] [runtime-status] [3704] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-05T12:35:01.528Z] [runtime-status] [3704] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"C:\\Users\\ESWAR\\firebase_Practise\\New folder\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-02-05T12:35:02.284Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:35:02.285Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:35:02.285Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:35:02.290Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:35:02.297Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:35:02.311Z] [runtime-status] [3704] Ephemeral server handling GET request
+[debug] [2020-02-05T12:35:09.732Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~2s
+[debug] [2020-02-05T12:35:11.233Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:35:11.234Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-05T12:37:55.566Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:37:55.566Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:37:55.566Z] Accepted request OPTIONS /flairtech-f6aa2/us-central1/api/inviteuser --> api
+[debug] [2020-02-05T12:37:55.567Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:37:55.567Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:37:55.567Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:37:55.568Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:37:55.570Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:37:55.570Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:37:55.570Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:37:55.572Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:37:55.577Z] [runtime-status] [3704] Ephemeral server handling OPTIONS request
+[debug] [2020-02-05T12:37:55.580Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-02-05T12:37:55.581Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:37:55.581Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-05T12:37:55.583Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:37:55.583Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:37:55.583Z] Accepted request POST /flairtech-f6aa2/us-central1/api/inviteuser --> api
+[debug] [2020-02-05T12:37:55.583Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:37:55.583Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:37:55.584Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:37:55.590Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:37:55.591Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:37:55.591Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:37:55.591Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:37:55.592Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:37:56.674Z] [runtime-status] [3704] Ephemeral server handling POST request
+[info] >  [ 'eswaranadh4e8@sasi.ac.in' ]
+[info] >  eshwarnadh345@gmail.com
+[debug] [2020-02-05T12:37:56.784Z] [runtime-status] [3704] Ephemeral server survived.
+[info] >  email sent
+[info] i  functions: Finished "api" in ~4s
+[debug] [2020-02-05T12:38:00.255Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:38:00.255Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580906280, _nanoseconds: 898387000 }
+[info] >  }
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580824345, _nanoseconds: 71622000 }
+[info] >  }
+[info] >  DocumentReference {
+[info] >    _firestore: Firestore {
+[info] >      _settings: {
+[info] >        credentials: [Object],
+[info] >        projectId: 'flair-d7b59',
+[info] >        firebaseVersion: '8.7.0',
+[info] >        libName: 'gccl',
+[info] >        libVersion: '2.6.0 fire/8.7.0'
+[info] >      },
+[info] >      _settingsFrozen: true,
+[info] >      _serializer: Serializer {
+[info] >        createReference: [Function],
+[info] >        timestampsInSnapshots: true
+[info] >      },
+[info] >      _projectId: 'flair-d7b59',
+[info] >      _lastSuccessfulRequest: 1580906281742,
+[info] >      _preferTransactions: false,
+[info] >      _clientPool: ClientPool {
+[info] >        concurrentOperationLimit: 100,
+[info] >        clientFactory: [Function],
+[info] >        activeClients: [Map]
+[info] >      }
+[info] >    },
+[info] >    _path: ResourcePath { segments: [ 'History', 'e5wMY0ebbtxtUj2pEBZO' ] }
+[info] >  }
+[debug] [2020-02-05T12:38:55.829Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:38:55.829Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:38:55.829Z] Accepted request OPTIONS /flairtech-f6aa2/us-central1/api/inviteuser --> api
+[debug] [2020-02-05T12:38:55.829Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:38:55.829Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:38:55.829Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:38:55.830Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:38:55.835Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:38:55.835Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:38:55.836Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:38:55.838Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:38:55.841Z] [runtime-status] [3704] Ephemeral server handling OPTIONS request
+[debug] [2020-02-05T12:38:55.841Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-02-05T12:38:55.844Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:38:55.844Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-05T12:38:55.845Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:38:55.845Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:38:55.845Z] Accepted request POST /flairtech-f6aa2/us-central1/api/inviteuser --> api
+[debug] [2020-02-05T12:38:55.845Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:38:55.845Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:38:55.845Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:38:55.852Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:38:55.856Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:38:55.856Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:38:55.856Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:38:55.858Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:38:55.861Z] [runtime-status] [3704] Ephemeral server handling POST request
+[info] >  [ 'subhash@sasi.ac.in' ]
+[debug] [2020-02-05T12:38:55.863Z] [runtime-status] [3704] Ephemeral server survived.
+[info] >  eshwarnadh345@gmail.com
+[info] >  email sent
+[info] i  functions: Finished "api" in ~2s
+[debug] [2020-02-05T12:38:58.443Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:38:58.443Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580906339, _nanoseconds: 114869000 }
+[info] >  }
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580906054, _nanoseconds: 561561000 }
+[info] >  }
+[info] >  DocumentReference {
+[info] >    _firestore: Firestore {
+[info] >      _settings: {
+[info] >        credentials: [Object],
+[info] >        projectId: 'flair-d7b59',
+[info] >        firebaseVersion: '8.7.0',
+[info] >        libName: 'gccl',
+[info] >        libVersion: '2.6.0 fire/8.7.0'
+[info] >      },
+[info] >      _settingsFrozen: true,
+[info] >      _serializer: Serializer {
+[info] >        createReference: [Function],
+[info] >        timestampsInSnapshots: true
+[info] >      },
+[info] >      _projectId: 'flair-d7b59',
+[info] >      _lastSuccessfulRequest: 1580906339965,
+[info] >      _preferTransactions: false,
+[info] >      _clientPool: ClientPool {
+[info] >        concurrentOperationLimit: 100,
+[info] >        clientFactory: [Function],
+[info] >        activeClients: [Map]
+[info] >      }
+[info] >    },
+[info] >    _path: ResourcePath { segments: [ 'History', 'r791hTPBhG5ER3LFRZmo' ] }
+[info] >  }
+[debug] [2020-02-05T12:41:46.690Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:41:46.690Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:41:46.690Z] Accepted request GET /flairtech-f6aa2/us-central1/api/activeusers --> api
+[debug] [2020-02-05T12:41:46.690Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:41:46.691Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:41:46.691Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:41:46.692Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:41:46.695Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:41:46.695Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:41:46.695Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:41:46.787Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:41:46.863Z] [runtime-status] [3704] Ephemeral server handling GET request
+[debug] [2020-02-05T12:41:46.865Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-02-05T12:41:47.595Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:41:47.596Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-05T12:48:29.086Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:48:29.087Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:48:29.087Z] Accepted request OPTIONS /flairtech-f6aa2/us-central1/api/inviteagain --> api
+[debug] [2020-02-05T12:48:29.087Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:48:29.087Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:48:29.090Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:48:29.092Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:48:29.096Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:48:29.096Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:48:29.097Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:48:29.099Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:48:29.102Z] [runtime-status] [3704] Ephemeral server handling OPTIONS request
+[debug] [2020-02-05T12:48:29.104Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-02-05T12:48:29.107Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:48:29.107Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-05T12:48:29.108Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:48:29.108Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:48:29.108Z] Accepted request POST /flairtech-f6aa2/us-central1/api/inviteagain --> api
+[debug] [2020-02-05T12:48:29.108Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:48:29.108Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:48:29.108Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:48:29.115Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:48:29.117Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:48:29.117Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:48:29.117Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:48:29.119Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:48:29.123Z] [runtime-status] [3704] Ephemeral server handling POST request
+[info] >  [ ' neeraj5d5@sasi.ac.in ' ]
+[info] >   neeraj5d5@sasi.ac.in 
+[debug] [2020-02-05T12:48:29.130Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~4s
+[debug] [2020-02-05T12:48:33.563Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:48:33.563Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580906916, _nanoseconds: 189833000 }
+[info] >  }
+[info] >  DocumentReference {
+[info] >    _firestore: Firestore {
+[info] >      _settings: {
+[info] >        credentials: [Object],
+[info] >        projectId: 'flair-d7b59',
+[info] >        firebaseVersion: '8.7.0',
+[info] >        libName: 'gccl',
+[info] >        libVersion: '2.6.0 fire/8.7.0'
+[info] >      },
+[info] >      _settingsFrozen: true,
+[info] >      _serializer: Serializer {
+[info] >        createReference: [Function],
+[info] >        timestampsInSnapshots: true
+[info] >      },
+[info] >      _projectId: 'flair-d7b59',
+[info] >      _lastSuccessfulRequest: 1580906916534,
+[info] >      _preferTransactions: false,
+[info] >      _clientPool: ClientPool {
+[info] >        concurrentOperationLimit: 100,
+[info] >        clientFactory: [Function],
+[info] >        activeClients: [Map]
+[info] >      }
+[info] >    },
+[info] >    _path: ResourcePath { segments: [ 'History', 'Rmxus6MbGhOSwMTwYRdQ' ] }
+[info] >  }
+[debug] [2020-02-05T12:50:11.819Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:50:11.820Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:50:11.820Z] Accepted request OPTIONS /flairtech-f6aa2/us-central1/api/inviteuser --> api
+[debug] [2020-02-05T12:50:11.822Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:50:11.822Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:50:11.822Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:50:11.823Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:50:11.826Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:50:11.826Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:50:11.826Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:50:11.828Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:50:11.832Z] [runtime-status] [3704] Ephemeral server handling OPTIONS request
+[debug] [2020-02-05T12:50:11.833Z] [runtime-status] [3704] Ephemeral server survived.
+[info] i  functions: Finished "api" in ~1s
+[debug] [2020-02-05T12:50:11.835Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:50:11.836Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[debug] [2020-02-05T12:50:11.836Z] [work-queue] {"queueLength":1,"workRunningCount":0}
+[debug] [2020-02-05T12:50:11.836Z] [work-queue] {"queueLength":0,"workRunningCount":1}
+[debug] [2020-02-05T12:50:11.836Z] Accepted request POST /flairtech-f6aa2/us-central1/api/inviteuser --> api
+[debug] [2020-02-05T12:50:11.836Z] [worker-pool] submitWork(triggerId=api)
+[debug] [2020-02-05T12:50:11.836Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: Assigning socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:50:11.836Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: BUSY
+[debug] [2020-02-05T12:50:11.844Z] [runtime-status] [3704] Trigger "api" has been found, beginning invocation!
+[info] i  functions: Beginning execution of "api"
+[debug] [2020-02-05T12:50:11.848Z] [runtime-status] [3704] triggerDefinition {"httpsTrigger":{},"name":"api","entryPoint":"api"}
+[debug] [2020-02-05T12:50:11.848Z] [runtime-status] [3704] Running api in mode HTTPS
+[debug] [2020-02-05T12:50:11.848Z] [runtime-status] [3704] Attempting to listen to socketPath: \\?\pipe\C:\Users\ESWAR\firebase_Practise\New folder\functions\3704
+[debug] [2020-02-05T12:50:11.849Z] [functions] Runtime ready! Sending request!
+[debug] [2020-02-05T12:50:11.851Z] [runtime-status] [3704] Ephemeral server handling POST request
+[info] >  [ 'subhash.kommina@gmail.com' ]
+[debug] [2020-02-05T12:50:11.853Z] [runtime-status] [3704] Ephemeral server survived.
+[info] >  eshwarnadh345@gmail.com
+[info] >  email sent
+[info] i  functions: Finished "api" in ~3s
+[debug] [2020-02-05T12:50:14.886Z] [worker-api-f7319559-7c0a-4214-890f-08d853967034]: IDLE
+[debug] [2020-02-05T12:50:14.886Z] [work-queue] {"queueLength":0,"workRunningCount":0}
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580907015, _nanoseconds: 554130000 }
+[info] >  }
+[info] >  WriteResult {
+[info] >    _writeTime: Timestamp { _seconds: 1580907015, _nanoseconds: 963796000 }
+[info] >  }
+[info] >  DocumentReference {
+[info] >    _firestore: Firestore {
+[info] >      _settings: {
+[info] >        credentials: [Object],
+[info] >        projectId: 'flair-d7b59',
+[info] >        firebaseVersion: '8.7.0',
+[info] >        libName: 'gccl',
+[info] >        libVersion: '2.6.0 fire/8.7.0'
+[info] >      },
+[info] >      _settingsFrozen: true,
+[info] >      _serializer: Serializer {
+[info] >        createReference: [Function],
+[info] >        timestampsInSnapshots: true
+[info] >      },
+[info] >      _projectId: 'flair-d7b59',
+[info] >      _lastSuccessfulRequest: 1580907016329,
+[info] >      _preferTransactions: false,
+[info] >      _clientPool: ClientPool {
+[info] >        concurrentOperationLimit: 100,
+[info] >        clientFactory: [Function],
+[info] >        activeClients: [Map]
+[info] >      }
+[info] >    },
+[info] >    _path: ResourcePath { segments: [ 'History', 'YdvUlxQYDxY4jVE1qgxP' ] }
+[info] >  }

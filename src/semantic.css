@@ -1,0 +1,63 @@
+.icon{
+    background: none;
+    color:rgba(0,0,0,.6);
+}
+
+.ver-p-5{
+    padding: 10px;
+}    
+
+.ver-mt-5{
+    margin-top: 10px;
+}
+
+.ver-mb-5{
+    margin-bottom: 10px;
+}
+
+.ver-text-small{
+    font-size: x-small;
+    font-weight: 600;
+}
+
+
+.ui.dimmer{     
+    text-align: center !important;
+}
+
+
+  .styles_overlay__CLSq- {
+    display: block;
+}
+
+
+.styles_modal__gNwvD {
+    border-radius: 5px;
+}
+
+
+.bg-green{
+    background: linear-gradient(#80b95f,#ffdc7a) !important;
+}
+
+.icon{
+    padding:0px;
+    min-width: 0px;
+}
+
+.ui.segment{
+    padding:0.5em 0.5em !important;
+}
+
+.ui.compact.selection.dropdown {
+    min-width:0 !important;
+}
+
+.ui.input>input {
+    flex: 1 0 !important;
+}
+
+.ui.secondary.pointing.menu .item {
+    margin: 0 -3px;
+}
+

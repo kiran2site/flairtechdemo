@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "flair-d7b59",
+    "staging": "flairtech-f6aa2"
+  }
+}
